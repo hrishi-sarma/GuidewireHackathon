@@ -3,3 +3,4 @@ gigshield-v2/backend/node_modules
 gigshield-v2/frontend/node_modules
 gigshield-v2/ml-service/venv
 gigshield-v2/ml-service/__pycache__
+gigshield-v2/backend/.env
