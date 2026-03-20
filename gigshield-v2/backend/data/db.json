@@ -1,0 +1,3691 @@
+{
+  "workers": [
+    {
+      "id": "w1",
+      "name": "Ravi Kumar",
+      "phone": "9876543210",
+      "email": "ravi@example.com",
+      "password": "$2a$10$bGAlYk9Y77GRSqeoYRqYJOq6vhH2mokfllJWDm5CyB69dKZqjjz4C",
+      "platform": "swiggy",
+      "zoneId": "z2",
+      "baseHourlyEarning": 80,
+      "avgHoursPerWeek": 50,
+      "kycVerified": true,
+      "createdAt": "2024-01-15T00:00:00.000Z",
+      "role": "worker",
+      "walletBalance": 3718
+    },
+    {
+      "id": "w2",
+      "name": "Priya Sharma",
+      "phone": "9876543211",
+      "email": "priya@example.com",
+      "password": "$2a$10$bGAlYk9Y77GRSqeoYRqYJOq6vhH2mokfllJWDm5CyB69dKZqjjz4C",
+      "platform": "zomato",
+      "zoneId": "z4",
+      "baseHourlyEarning": 75,
+      "avgHoursPerWeek": 45,
+      "kycVerified": true,
+      "createdAt": "2024-02-10T00:00:00.000Z",
+      "role": "worker",
+      "walletBalance": 0
+    },
+    {
+      "id": "1af607c2-18a2-4ea2-a6c3-bc473fe669ad",
+      "name": "Test User",
+      "phone": "9123456789",
+      "email": "",
+      "password": "$2a$10$8C3XyGbcGQu1IbACYvEaVuLSEFhcAWiYz9miYOF8LXvGUbjDWLqwu",
+      "platform": "swiggy",
+      "zoneId": "z1",
+      "baseHourlyEarning": 82,
+      "avgHoursPerWeek": 40,
+      "role": "worker",
+      "kycVerified": true,
+      "createdAt": "2026-03-20T09:54:40.939Z",
+      "walletBalance": 0
+    },
+    {
+      "id": "27829740-2728-495e-8d91-7538b8ccba50",
+      "name": "Test User",
+      "phone": "1234567890",
+      "email": "",
+      "password": "$2a$10$SJ31OiGPSC/hHIA6hCc2q.Oj/.jVujW633qFqtnHRyZ6FjIF0yt8u",
+      "platform": "swiggy",
+      "zoneId": "z1",
+      "baseHourlyEarning": 82,
+      "avgHoursPerWeek": 40,
+      "role": "worker",
+      "kycVerified": true,
+      "createdAt": "2026-03-20T10:00:15.665Z",
+      "walletBalance": 0
+    }
+  ],
+  "admins": [
+    {
+      "id": "a1",
+      "name": "Admin",
+      "email": "admin@gigshield.in",
+      "password": "$2a$10$Iiqc339iRdSSt06ywD1y1ufGGt9UewNNEDLsAS9t6PmFMS/.Lebwu",
+      "role": "admin"
+    }
+  ],
+  "policies": [
+    {
+      "id": "c7470892-2f56-40b7-a1ee-c41565928ffd",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z2",
+      "weeklyPremium": 35,
+      "maxWeeklyPayout": 600,
+      "status": "expired",
+      "startDate": "2026-03-20T09:09:49.869Z",
+      "endDate": "2026-03-27T09:09:49.869Z",
+      "totalPaidIn": 35,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 35,
+        "multiplier": 1.21,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Kurla"
+      },
+      "createdAt": "2026-03-20T09:09:49.870Z"
+    },
+    {
+      "id": "4f2aedf7-ddd9-415b-b73e-826f07c480cd",
+      "workerId": "w1",
+      "planId": "pro",
+      "zoneId": "z2",
+      "weeklyPremium": 59,
+      "maxWeeklyPayout": 1200,
+      "status": "expired",
+      "startDate": "2026-03-20T09:10:09.245Z",
+      "endDate": "2026-03-27T09:10:09.245Z",
+      "totalPaidIn": 59,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 49,
+        "dynamicWeeklyPremium": 59,
+        "multiplier": 1.2,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Kurla"
+      },
+      "createdAt": "2026-03-20T09:10:09.245Z"
+    },
+    {
+      "id": "480feb48-20bb-46d7-97e5-8a0b26d3f851",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z2",
+      "weeklyPremium": 36,
+      "maxWeeklyPayout": 600,
+      "status": "expired",
+      "startDate": "2026-03-20T09:23:29.461Z",
+      "endDate": "2026-03-27T09:23:29.461Z",
+      "totalPaidIn": 36,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 36,
+        "multiplier": 1.24,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Kurla"
+      },
+      "createdAt": "2026-03-20T09:23:29.462Z"
+    },
+    {
+      "id": "8f31eb6a-971a-4aa4-af01-c8651a1e4829",
+      "workerId": "w1",
+      "planId": "pro",
+      "zoneId": "z2",
+      "weeklyPremium": 59,
+      "maxWeeklyPayout": 1200,
+      "status": "expired",
+      "startDate": "2026-03-20T09:23:36.955Z",
+      "endDate": "2026-03-27T09:23:36.955Z",
+      "totalPaidIn": 59,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 49,
+        "dynamicWeeklyPremium": 59,
+        "multiplier": 1.2,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Kurla"
+      },
+      "createdAt": "2026-03-20T09:23:36.955Z"
+    },
+    {
+      "id": "c5b679dc-729c-445e-aeda-33b0c26e9f09",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z2",
+      "weeklyPremium": 36,
+      "maxWeeklyPayout": 600,
+      "status": "expired",
+      "startDate": "2026-03-20T09:23:41.638Z",
+      "endDate": "2026-03-27T09:23:41.638Z",
+      "totalPaidIn": 36,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 36,
+        "multiplier": 1.24,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Kurla"
+      },
+      "createdAt": "2026-03-20T09:23:41.638Z"
+    },
+    {
+      "id": "04c24f2c-2b4c-423a-a470-1d2b4cd34bcd",
+      "workerId": "w1",
+      "planId": "pro",
+      "zoneId": "z2",
+      "weeklyPremium": 59,
+      "maxWeeklyPayout": 1200,
+      "status": "expired",
+      "startDate": "2026-03-20T09:25:39.243Z",
+      "endDate": "2026-03-27T09:25:39.243Z",
+      "totalPaidIn": 59,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 49,
+        "dynamicWeeklyPremium": 59,
+        "multiplier": 1.2,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Kurla"
+      },
+      "createdAt": "2026-03-20T09:25:39.243Z"
+    },
+    {
+      "id": "334afdc4-78e2-4c3d-ab4e-b261fbc95a39",
+      "workerId": "w1",
+      "planId": "max",
+      "zoneId": "z2",
+      "weeklyPremium": 95,
+      "maxWeeklyPayout": 2000,
+      "status": "cancelled",
+      "startDate": "2026-03-20T09:25:42.459Z",
+      "endDate": "2026-03-20T09:36:10.456Z",
+      "totalPaidIn": 95,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 79,
+        "dynamicWeeklyPremium": 95,
+        "multiplier": 1.2,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Kurla"
+      },
+      "createdAt": "2026-03-20T09:25:42.459Z"
+    },
+    {
+      "id": "1b0f1438-a114-4253-bd81-29b82da7f22b",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z9",
+      "weeklyPremium": 33,
+      "maxWeeklyPayout": 600,
+      "status": "expired",
+      "startDate": "2026-03-20T09:36:16.787Z",
+      "endDate": "2026-03-27T09:36:16.787Z",
+      "totalPaidIn": 33,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 33,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Velachery"
+      },
+      "createdAt": "2026-03-20T09:36:16.787Z"
+    },
+    {
+      "id": "17dbbd55-e63e-4b58-83bc-0ed25c2e3162",
+      "workerId": "w1",
+      "planId": "pro",
+      "zoneId": "z25",
+      "weeklyPremium": 56,
+      "maxWeeklyPayout": 1200,
+      "status": "expired",
+      "startDate": "2026-03-20T10:11:43.614Z",
+      "endDate": "2026-03-27T10:11:43.614Z",
+      "totalPaidIn": 56,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 49,
+        "dynamicWeeklyPremium": 56,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T10:11:43.615Z"
+    },
+    {
+      "id": "798ac8f1-df94-47d9-8b05-b58418ae50f2",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z25",
+      "weeklyPremium": 33,
+      "maxWeeklyPayout": 600,
+      "status": "expired",
+      "startDate": "2026-03-20T10:14:16.587Z",
+      "endDate": "2026-03-27T10:14:16.587Z",
+      "totalPaidIn": 33,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 33,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T10:14:16.587Z"
+    },
+    {
+      "id": "dbbda695-9f52-45b6-9096-efc63af661fe",
+      "workerId": "w1",
+      "planId": "max",
+      "zoneId": "z25",
+      "weeklyPremium": 90,
+      "maxWeeklyPayout": 2000,
+      "status": "expired",
+      "startDate": "2026-03-20T10:14:20.145Z",
+      "endDate": "2026-03-27T10:14:20.145Z",
+      "totalPaidIn": 90,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 79,
+        "dynamicWeeklyPremium": 90,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T10:14:20.145Z"
+    },
+    {
+      "id": "59d3c187-dc5e-4e77-9809-e27cf5c004f9",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z25",
+      "weeklyPremium": 33,
+      "maxWeeklyPayout": 600,
+      "status": "cancelled",
+      "startDate": "2026-03-20T10:36:20.793Z",
+      "endDate": "2026-03-20T10:37:00.739Z",
+      "totalPaidIn": 33,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 33,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T10:36:20.794Z"
+    },
+    {
+      "id": "d93ce89b-30f4-41fd-960a-bbea44b34666",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z25",
+      "weeklyPremium": 33,
+      "maxWeeklyPayout": 600,
+      "status": "cancelled",
+      "startDate": "2026-03-20T10:37:47.065Z",
+      "endDate": "2026-03-20T10:38:32.711Z",
+      "totalPaidIn": 33,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 33,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T10:37:47.065Z"
+    },
+    {
+      "id": "4fd07405-8889-4f52-b60c-fcb61c4e4c21",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z25",
+      "weeklyPremium": 33,
+      "maxWeeklyPayout": 600,
+      "status": "cancelled",
+      "startDate": "2026-03-20T10:40:27.524Z",
+      "endDate": "2026-03-20T10:40:29.595Z",
+      "totalPaidIn": 33,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 33,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T10:40:27.525Z"
+    },
+    {
+      "id": "6e199bb4-47a9-4240-b749-7034e80741ac",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z25",
+      "weeklyPremium": 33,
+      "maxWeeklyPayout": 600,
+      "status": "cancelled",
+      "startDate": "2026-03-20T10:41:21.709Z",
+      "endDate": "2026-03-20T10:41:51.279Z",
+      "totalPaidIn": 33,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 33,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T10:41:21.709Z"
+    },
+    {
+      "id": "6d726f8a-2ce7-4942-945a-86fd22a011e4",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z25",
+      "weeklyPremium": 33,
+      "maxWeeklyPayout": 600,
+      "status": "cancelled",
+      "startDate": "2026-03-20T10:41:58.485Z",
+      "endDate": "2026-03-20T11:04:27.704Z",
+      "totalPaidIn": 33,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 33,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T10:41:58.485Z"
+    },
+    {
+      "id": "19712861-05ef-4f26-9861-54f09e2d3147",
+      "workerId": "w1",
+      "planId": "basic",
+      "zoneId": "z25",
+      "weeklyPremium": 33,
+      "maxWeeklyPayout": 600,
+      "status": "expired",
+      "startDate": "2026-03-20T11:38:46.844Z",
+      "endDate": "2026-03-27T11:38:46.844Z",
+      "totalPaidIn": 33,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 29,
+        "dynamicWeeklyPremium": 33,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T11:38:46.845Z"
+    },
+    {
+      "id": "44c340ce-b6f5-4ce8-99b0-13efa407e700",
+      "workerId": "w1",
+      "planId": "ultimate",
+      "zoneId": "z25",
+      "weeklyPremium": 49,
+      "maxWeeklyPayout": 3000,
+      "status": "expired",
+      "startDate": "2026-03-20T11:53:13.799Z",
+      "endDate": "2026-03-27T11:53:13.799Z",
+      "totalPaidIn": 49,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 99,
+        "dynamicWeeklyPremium": 49,
+        "multiplier": 1,
+        "riskLabel": "Low Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T11:53:13.799Z"
+    },
+    {
+      "id": "7b08a642-ea63-494a-b28e-f587ffb21643",
+      "workerId": "w1",
+      "planId": "pro",
+      "zoneId": "z25",
+      "weeklyPremium": 56,
+      "maxWeeklyPayout": 1200,
+      "status": "active",
+      "startDate": "2026-03-20T15:51:24.343Z",
+      "endDate": "2026-03-27T15:51:24.343Z",
+      "totalPaidIn": 56,
+      "totalPaidOut": 0,
+      "claimCount": 0,
+      "pricingBreakdown": {
+        "baseWeeklyPremium": 49,
+        "dynamicWeeklyPremium": 56,
+        "multiplier": 1.14,
+        "riskLabel": "Moderate Risk",
+        "source": "ml_service",
+        "zone": "Park Street"
+      },
+      "createdAt": "2026-03-20T15:51:24.344Z"
+    }
+  ],
+  "claims": [
+    {
+      "id": "7787f533-840a-478f-8a48-53c2b9669bd3",
+      "workerId": "w1",
+      "policyId": "4f2aedf7-ddd9-415b-b73e-826f07c480cd",
+      "triggerEventId": "a1cff41b-69d4-4d23-aff0-221578abb829",
+      "triggerType": "rain",
+      "triggerValue": "22.8mm/hr",
+      "disruptionHours": 3.3,
+      "payoutAmount": 312,
+      "fraudScore": 49,
+      "status": "paid",
+      "fraudReason": null,
+      "triggeredAt": "2026-03-20T09:14:23.806Z",
+      "weatherSource": "simulation",
+      "createdAt": "2026-03-20T09:14:23.806Z",
+      "paidAt": "2026-03-20T09:14:30.795Z",
+      "upiRef": "UPIWMCY31YKHE"
+    },
+    {
+      "id": "88270d1f-55f3-449e-9ca2-0edfa8d4aa61",
+      "workerId": "w1",
+      "policyId": "4f2aedf7-ddd9-415b-b73e-826f07c480cd",
+      "triggerEventId": "ffc5216e-9469-4bba-92f8-dcf467e68b8c",
+      "triggerType": "heat",
+      "triggerValue": "43.9°C",
+      "disruptionHours": 4.1,
+      "payoutAmount": 198,
+      "fraudScore": 0,
+      "status": "paid",
+      "fraudReason": null,
+      "triggeredAt": "2026-03-20T09:14:32.113Z",
+      "weatherSource": "simulation",
+      "createdAt": "2026-03-20T09:14:32.113Z",
+      "paidAt": "2026-03-20T09:14:39.310Z",
+      "upiRef": "UPI8Q7XTTQBFOH"
+    },
+    {
+      "id": "5467ee6c-3c11-4b65-95ed-53df9c018a55",
+      "workerId": "w1",
+      "policyId": "44c340ce-b6f5-4ce8-99b0-13efa407e700",
+      "triggerEventId": "c226c130-248f-4709-8354-87b9d00d64d5",
+      "triggerType": "rain",
+      "triggerValue": "22.6mm/hr",
+      "disruptionHours": 3.3,
+      "payoutAmount": 312,
+      "fraudScore": 49,
+      "status": "paid",
+      "fraudReason": null,
+      "triggeredAt": "2026-03-20T14:20:25.523Z",
+      "weatherSource": "simulation",
+      "createdAt": "2026-03-20T14:20:25.523Z",
+      "paidAt": "2026-03-20T14:20:34.678Z",
+      "upiRef": "UPIU9PIAJQ829"
+    },
+    {
+      "id": "4b2c6ca0-16d1-4a1d-b150-84701a93f2e1",
+      "workerId": "w1",
+      "policyId": "44c340ce-b6f5-4ce8-99b0-13efa407e700",
+      "triggerEventId": "e3271ba5-1426-48ed-a6f4-0446f7112841",
+      "triggerType": "rain",
+      "triggerValue": "24.2mm/hr",
+      "disruptionHours": 3.4,
+      "payoutAmount": 319,
+      "fraudScore": 50,
+      "status": "paid",
+      "fraudReason": null,
+      "triggeredAt": "2026-03-20T14:22:01.757Z",
+      "weatherSource": "simulation",
+      "createdAt": "2026-03-20T14:22:01.757Z",
+      "paidAt": "2026-03-20T14:22:08.019Z",
+      "upiRef": "UPISC3U1U0JVBH"
+    },
+    {
+      "id": "eb6d8c50-aa69-4e7e-9263-7c99793b0b86",
+      "workerId": "w1",
+      "policyId": "44c340ce-b6f5-4ce8-99b0-13efa407e700",
+      "triggerEventId": "e9f41581-c2cd-4f4d-9a49-7afb0af448d9",
+      "triggerType": "aqi",
+      "triggerValue": "348.0 AQI",
+      "disruptionHours": 4.2,
+      "payoutAmount": 388,
+      "fraudScore": 48,
+      "status": "paid",
+      "fraudReason": null,
+      "triggeredAt": "2026-03-20T14:30:36.213Z",
+      "weatherSource": "simulation",
+      "createdAt": "2026-03-20T14:30:36.213Z",
+      "paidAt": "2026-03-20T14:30:45.183Z",
+      "upiRef": "UPIP34KBDOKMJB"
+    },
+    {
+      "id": "be5787a3-7c72-453a-b50b-e78aa88e17dd",
+      "workerId": "w1",
+      "policyId": "44c340ce-b6f5-4ce8-99b0-13efa407e700",
+      "triggerEventId": "c1e85dc5-aa99-4fcc-80af-5c040a9ed358",
+      "triggerType": "rain",
+      "triggerValue": "27.3mm/hr",
+      "disruptionHours": 3.7,
+      "payoutAmount": 335,
+      "fraudScore": 34,
+      "status": "paid",
+      "fraudReason": null,
+      "triggeredAt": "2026-03-20T14:40:57.273Z",
+      "weatherSource": "simulation",
+      "createdAt": "2026-03-20T14:40:57.273Z",
+      "paidAt": "2026-03-20T14:41:05.999Z",
+      "upiRef": "UPIAADRIXINER"
+    },
+    {
+      "id": "df24b996-dc86-42b3-bceb-dcf4ec4d4701",
+      "workerId": "w1",
+      "policyId": "44c340ce-b6f5-4ce8-99b0-13efa407e700",
+      "triggerEventId": "a1f5d4d1-05df-4c69-ab46-6f6a9f2e9248",
+      "triggerType": "curfew",
+      "triggerValue": "1.0",
+      "disruptionHours": 3,
+      "payoutAmount": 252,
+      "fraudScore": 1,
+      "status": "paid",
+      "fraudReason": null,
+      "triggeredAt": "2026-03-20T14:42:59.835Z",
+      "weatherSource": "simulation",
+      "createdAt": "2026-03-20T14:42:59.835Z",
+      "paidAt": "2026-03-20T14:43:07.686Z",
+      "upiRef": "UPIK80QI0SZTT"
+    },
+    {
+      "id": "99eea5b4-5641-4969-9f7c-f412fe9b942a",
+      "workerId": "w1",
+      "policyId": "44c340ce-b6f5-4ce8-99b0-13efa407e700",
+      "triggerEventId": "b48e62a0-72db-4147-915e-fd9034d12b31",
+      "triggerType": "heat",
+      "triggerValue": "43.8°C",
+      "disruptionHours": 4.1,
+      "payoutAmount": 198,
+      "fraudScore": 0,
+      "status": "paid",
+      "fraudReason": null,
+      "triggeredAt": "2026-03-20T14:53:20.488Z",
+      "weatherSource": "simulation",
+      "createdAt": "2026-03-20T14:53:20.488Z",
+      "paidAt": "2026-03-20T14:53:30.314Z",
+      "upiRef": "UPIET3XKFBEMJT"
+    },
+    {
+      "id": "def8f9a0-54c2-4281-b273-5986559cb217",
+      "workerId": "w1",
+      "policyId": "7b08a642-ea63-494a-b28e-f587ffb21643",
+      "triggerEventId": "1c4133af-8a75-4246-9b7e-bca035b00a0b",
+      "triggerType": "rain",
+      "triggerValue": "32.1mm/hr",
+      "disruptionHours": 4.2,
+      "payoutAmount": 410,
+      "fraudScore": 51,
+      "status": "paid",
+      "fraudReason": null,
+      "triggeredAt": "2026-03-20T15:57:15.994Z",
+      "weatherSource": "simulation",
+      "createdAt": "2026-03-20T15:57:15.994Z",
+      "paidAt": "2026-03-20T15:57:25.667Z",
+      "upiRef": "UPIQ2PIQMYC5A9"
+    }
+  ],
+  "triggerEvents": [
+    {
+      "id": "677e7922-c15c-4a4c-9abc-be3fc646111c",
+      "zoneId": "z30",
+      "zoneName": "Malviya Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 27.9,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z30",
+        "zone_name": "Malviya Nagar",
+        "rainfall_mm_hr": 27.9,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:16.018Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:16.018Z"
+    },
+    {
+      "id": "a7e5384d-32b8-4681-b035-0e5324b8b9c9",
+      "zoneId": "z29",
+      "zoneName": "Indira Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 26.3,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z29",
+        "zone_name": "Indira Nagar",
+        "rainfall_mm_hr": 26.3,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:16.010Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:16.011Z"
+    },
+    {
+      "id": "17796f5e-d601-4e70-bb7d-2168e0ea4dd1",
+      "zoneId": "z28",
+      "zoneName": "Gomti Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 24.8,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z28",
+        "zone_name": "Gomti Nagar",
+        "rainfall_mm_hr": 24.8,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:16.004Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:16.004Z"
+    },
+    {
+      "id": "29dfbb00-43c4-45d0-9e7c-d4a43bf3bed0",
+      "zoneId": "z27",
+      "zoneName": "Navrangpura",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 23.2,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z27",
+        "zone_name": "Navrangpura",
+        "rainfall_mm_hr": 23.2,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:16.001Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:16.001Z"
+    },
+    {
+      "id": "e5ebe10c-d3b3-43af-8e4d-eea563199107",
+      "zoneId": "z26",
+      "zoneName": "Satellite",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 33.6,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z26",
+        "zone_name": "Satellite",
+        "rainfall_mm_hr": 33.6,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.997Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.997Z"
+    },
+    {
+      "id": "1c4133af-8a75-4246-9b7e-bca035b00a0b",
+      "zoneId": "z25",
+      "zoneName": "Park Street",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 32.1,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z25",
+        "zone_name": "Park Street",
+        "rainfall_mm_hr": 32.1,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.753Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.753Z"
+    },
+    {
+      "id": "efca5967-819d-45ed-a368-b6d8c1edccbe",
+      "zoneId": "z24",
+      "zoneName": "New Town",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 30.5,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z24",
+        "zone_name": "New Town",
+        "rainfall_mm_hr": 30.5,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.745Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.745Z"
+    },
+    {
+      "id": "279923cc-ace9-4725-a28b-0fb874dd0d4e",
+      "zoneId": "z23",
+      "zoneName": "Salt Lake",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 29,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z23",
+        "zone_name": "Salt Lake",
+        "rainfall_mm_hr": 29,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.743Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.743Z"
+    },
+    {
+      "id": "8e6b4751-69b7-41f3-b5d0-4670940652ed",
+      "zoneId": "z22",
+      "zoneName": "Kothrud",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 27.4,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z22",
+        "zone_name": "Kothrud",
+        "rainfall_mm_hr": 27.4,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.740Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.740Z"
+    },
+    {
+      "id": "17fb3ff0-cd0a-4bfa-852e-8e2c35e06916",
+      "zoneId": "z21",
+      "zoneName": "Viman Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 25.8,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z21",
+        "zone_name": "Viman Nagar",
+        "rainfall_mm_hr": 25.8,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.738Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.738Z"
+    },
+    {
+      "id": "de0aef2c-0c58-4ec3-85eb-56254a58e5d2",
+      "zoneId": "z20",
+      "zoneName": "Hinjewadi",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 24.3,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z20",
+        "zone_name": "Hinjewadi",
+        "rainfall_mm_hr": 24.3,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.735Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.735Z"
+    },
+    {
+      "id": "88fd0921-543e-4ac2-8929-7c4061c7785e",
+      "zoneId": "z19",
+      "zoneName": "Banjara Hills",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 22.7,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z19",
+        "zone_name": "Banjara Hills",
+        "rainfall_mm_hr": 22.7,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.733Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.733Z"
+    },
+    {
+      "id": "8ead4c0b-1cc1-4ece-b134-355f04acb15c",
+      "zoneId": "z18",
+      "zoneName": "Gachibowli",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 33.2,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z18",
+        "zone_name": "Gachibowli",
+        "rainfall_mm_hr": 33.2,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.731Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.731Z"
+    },
+    {
+      "id": "30e7ea80-1059-45a6-ae41-db5540d0edfc",
+      "zoneId": "z17",
+      "zoneName": "Hitech City",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 31.6,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z17",
+        "zone_name": "Hitech City",
+        "rainfall_mm_hr": 31.6,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.728Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.728Z"
+    },
+    {
+      "id": "359e7600-2e7f-40c9-800e-425ec694d357",
+      "zoneId": "z16",
+      "zoneName": "Adyar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 30,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z16",
+        "zone_name": "Adyar",
+        "rainfall_mm_hr": 30,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.725Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.725Z"
+    },
+    {
+      "id": "b4f148cb-8f9f-4c64-a8a9-f8df28b38d9a",
+      "zoneId": "z15",
+      "zoneName": "Velachery",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 28.5,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z15",
+        "zone_name": "Velachery",
+        "rainfall_mm_hr": 28.5,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.723Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.723Z"
+    },
+    {
+      "id": "7ec7bee1-4bfe-4ee2-ad1d-127b1cd14777",
+      "zoneId": "z14",
+      "zoneName": "T Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 26.9,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z14",
+        "zone_name": "T Nagar",
+        "rainfall_mm_hr": 26.9,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.720Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.720Z"
+    },
+    {
+      "id": "e9f8c134-e3a5-4801-a2a3-36ef0f7d04c0",
+      "zoneId": "z13",
+      "zoneName": "Electronic City",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 25.4,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z13",
+        "zone_name": "Electronic City",
+        "rainfall_mm_hr": 25.4,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.717Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.717Z"
+    },
+    {
+      "id": "237fb611-5ab5-4afe-8cc0-d653d255b9a8",
+      "zoneId": "z12",
+      "zoneName": "Indiranagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 23.8,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z12",
+        "zone_name": "Indiranagar",
+        "rainfall_mm_hr": 23.8,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.712Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.712Z"
+    },
+    {
+      "id": "074714fa-7621-4625-99ae-208c7202c3de",
+      "zoneId": "z11",
+      "zoneName": "Whitefield",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 22.2,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z11",
+        "zone_name": "Whitefield",
+        "rainfall_mm_hr": 22.2,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.709Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.710Z"
+    },
+    {
+      "id": "5d84298c-60ed-4f81-82e8-e5cb25c31801",
+      "zoneId": "z10",
+      "zoneName": "Koramangala",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 32.7,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z10",
+        "zone_name": "Koramangala",
+        "rainfall_mm_hr": 32.7,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.707Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.708Z"
+    },
+    {
+      "id": "4be5ac53-a9c2-4793-985b-b7b4089ce729",
+      "zoneId": "z9",
+      "zoneName": "Sector 62",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 31.1,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z9",
+        "zone_name": "Sector 62",
+        "rainfall_mm_hr": 31.1,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.705Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.705Z"
+    },
+    {
+      "id": "72582590-0711-4d00-8fb6-b43f463535a8",
+      "zoneId": "z8",
+      "zoneName": "Cyber City",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 29.6,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z8",
+        "zone_name": "Cyber City",
+        "rainfall_mm_hr": 29.6,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.703Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.703Z"
+    },
+    {
+      "id": "ca51e3e9-9eca-4f7a-a3a9-2c43c856e258",
+      "zoneId": "z7",
+      "zoneName": "Rohini",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 28,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z7",
+        "zone_name": "Rohini",
+        "rainfall_mm_hr": 28,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.700Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.700Z"
+    },
+    {
+      "id": "44ba5858-eb24-42fb-ba1a-36a6bda419c5",
+      "zoneId": "z6",
+      "zoneName": "Lajpat Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 26.4,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z6",
+        "zone_name": "Lajpat Nagar",
+        "rainfall_mm_hr": 26.4,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.697Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.698Z"
+    },
+    {
+      "id": "99d5c358-61af-4d6d-bdf6-cf4c34c5f940",
+      "zoneId": "z5",
+      "zoneName": "Dwarka",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 24.9,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z5",
+        "zone_name": "Dwarka",
+        "rainfall_mm_hr": 24.9,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.695Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.695Z"
+    },
+    {
+      "id": "2633287a-774e-490e-8cab-99f5b682c4aa",
+      "zoneId": "z4",
+      "zoneName": "Powai",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 23.3,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z4",
+        "zone_name": "Powai",
+        "rainfall_mm_hr": 23.3,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.693Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.693Z"
+    },
+    {
+      "id": "07dcd76a-24b8-4a14-b9ee-986b9891a382",
+      "zoneId": "z3",
+      "zoneName": "Bandra",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 33.8,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z3",
+        "zone_name": "Bandra",
+        "rainfall_mm_hr": 33.8,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.690Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.690Z"
+    },
+    {
+      "id": "e1b99554-c484-405c-9f1c-a848702e429c",
+      "zoneId": "z2",
+      "zoneName": "Kurla",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 32.2,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z2",
+        "zone_name": "Kurla",
+        "rainfall_mm_hr": 32.2,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.685Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.685Z"
+    },
+    {
+      "id": "d7c4b6dd-b2b4-4f51-b04f-64c47f35e8af",
+      "zoneId": "z1",
+      "zoneName": "Andheri West",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 30.6,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z1",
+        "zone_name": "Andheri West",
+        "rainfall_mm_hr": 30.6,
+        "temp_celsius": 31,
+        "aqi": 81,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T15:57:15.678Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T15:57:15.678Z"
+    },
+    {
+      "id": "60cbf6e2-c914-4dd2-892e-d7732ce8d51f",
+      "zoneId": "z30",
+      "zoneName": "Malviya Nagar",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.1,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z30",
+        "zone_name": "Malviya Nagar",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.1,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.501Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.501Z"
+    },
+    {
+      "id": "21762235-4970-4138-a168-8903422d7ac0",
+      "zoneId": "z29",
+      "zoneName": "Indira Nagar",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.9,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z29",
+        "zone_name": "Indira Nagar",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.9,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.499Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.499Z"
+    },
+    {
+      "id": "bae95a8f-bb40-4fb1-b990-e23801e53d9b",
+      "zoneId": "z28",
+      "zoneName": "Gomti Nagar",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.6,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z28",
+        "zone_name": "Gomti Nagar",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.6,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.497Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.497Z"
+    },
+    {
+      "id": "c016aaa6-d99c-4471-a4c4-2a8cd5cd20ca",
+      "zoneId": "z27",
+      "zoneName": "Navrangpura",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.3,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z27",
+        "zone_name": "Navrangpura",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.3,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.493Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.494Z"
+    },
+    {
+      "id": "b9e3bbf4-3d29-40a7-9081-ab3c0e9cccf1",
+      "zoneId": "z26",
+      "zoneName": "Satellite",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.1,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z26",
+        "zone_name": "Satellite",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.1,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.491Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.491Z"
+    },
+    {
+      "id": "b48e62a0-72db-4147-915e-fd9034d12b31",
+      "zoneId": "z25",
+      "zoneName": "Park Street",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.8,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z25",
+        "zone_name": "Park Street",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.8,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.345Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.345Z"
+    },
+    {
+      "id": "868acbf7-fba2-41c1-ba56-8c3ea199a2f9",
+      "zoneId": "z24",
+      "zoneName": "New Town",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.6,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z24",
+        "zone_name": "New Town",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.6,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.341Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.341Z"
+    },
+    {
+      "id": "75062e75-9d00-4e4c-91b2-a69adb8578e9",
+      "zoneId": "z23",
+      "zoneName": "Salt Lake",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.3,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z23",
+        "zone_name": "Salt Lake",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.3,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.338Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.339Z"
+    },
+    {
+      "id": "a533cf16-0d38-4f78-b2e3-131c46c8022a",
+      "zoneId": "z22",
+      "zoneName": "Kothrud",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 45,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z22",
+        "zone_name": "Kothrud",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 45,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.337Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.337Z"
+    },
+    {
+      "id": "867d62cd-e57c-44f8-b3da-d4788357f95f",
+      "zoneId": "z21",
+      "zoneName": "Viman Nagar",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.8,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z21",
+        "zone_name": "Viman Nagar",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.8,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.334Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.334Z"
+    },
+    {
+      "id": "ec14f493-3b9b-47f4-8577-750dd06a31cd",
+      "zoneId": "z20",
+      "zoneName": "Hinjewadi",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.5,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z20",
+        "zone_name": "Hinjewadi",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.5,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.332Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.332Z"
+    },
+    {
+      "id": "cda63d97-1a46-48ad-99a4-3976850072ba",
+      "zoneId": "z19",
+      "zoneName": "Banjara Hills",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.3,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z19",
+        "zone_name": "Banjara Hills",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.3,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.328Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.328Z"
+    },
+    {
+      "id": "b7f9c83b-f3ba-457f-a6f2-a8697474892a",
+      "zoneId": "z18",
+      "zoneName": "Gachibowli",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z18",
+        "zone_name": "Gachibowli",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.325Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.325Z"
+    },
+    {
+      "id": "a57df739-b121-493b-a992-cfb32c8640c1",
+      "zoneId": "z17",
+      "zoneName": "Hitech City",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.7,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z17",
+        "zone_name": "Hitech City",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.7,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.323Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.323Z"
+    },
+    {
+      "id": "9039f7fa-7f69-4f19-a5cd-68b1891c659a",
+      "zoneId": "z16",
+      "zoneName": "Adyar",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.5,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z16",
+        "zone_name": "Adyar",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.5,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.321Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.321Z"
+    },
+    {
+      "id": "b8c7b8e1-9add-4c6a-ba36-bf87775c2831",
+      "zoneId": "z15",
+      "zoneName": "Velachery",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.2,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z15",
+        "zone_name": "Velachery",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.2,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.318Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.318Z"
+    },
+    {
+      "id": "8b34baab-885f-44af-a10b-483072856a06",
+      "zoneId": "z14",
+      "zoneName": "T Nagar",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 45,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z14",
+        "zone_name": "T Nagar",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 45,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.316Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.316Z"
+    },
+    {
+      "id": "8f723467-d0ec-49fd-82f1-7103b8a6c0ae",
+      "zoneId": "z13",
+      "zoneName": "Electronic City",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.7,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z13",
+        "zone_name": "Electronic City",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.7,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.313Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.313Z"
+    },
+    {
+      "id": "03352590-aa88-400d-b541-29662373e5d4",
+      "zoneId": "z12",
+      "zoneName": "Indiranagar",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.4,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z12",
+        "zone_name": "Indiranagar",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.4,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.311Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.311Z"
+    },
+    {
+      "id": "000cf9b6-d441-40e5-a464-75f04e5debad",
+      "zoneId": "z11",
+      "zoneName": "Whitefield",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.2,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z11",
+        "zone_name": "Whitefield",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.2,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.309Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.309Z"
+    },
+    {
+      "id": "a1bcd25d-8b2e-4dc6-ab61-6d104244ec0f",
+      "zoneId": "z10",
+      "zoneName": "Koramangala",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.9,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z10",
+        "zone_name": "Koramangala",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.9,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.306Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.306Z"
+    },
+    {
+      "id": "91f1c95e-42cc-4771-afe5-ba1aa95761a8",
+      "zoneId": "z9",
+      "zoneName": "Sector 62",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.7,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z9",
+        "zone_name": "Sector 62",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.7,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.304Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.304Z"
+    },
+    {
+      "id": "0f908ecf-5daf-48f5-ac2f-f7258b98413c",
+      "zoneId": "z8",
+      "zoneName": "Cyber City",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.4,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z8",
+        "zone_name": "Cyber City",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.4,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.301Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.301Z"
+    },
+    {
+      "id": "21efac93-185c-4b48-a960-0ab96c1471ec",
+      "zoneId": "z7",
+      "zoneName": "Rohini",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.1,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z7",
+        "zone_name": "Rohini",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.1,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.299Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.299Z"
+    },
+    {
+      "id": "35ed6ee0-3009-4361-b739-bf37942f6b17",
+      "zoneId": "z6",
+      "zoneName": "Lajpat Nagar",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.9,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z6",
+        "zone_name": "Lajpat Nagar",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.9,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.297Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.297Z"
+    },
+    {
+      "id": "21a6d932-2b89-454a-b1d5-97bf996307d4",
+      "zoneId": "z5",
+      "zoneName": "Dwarka",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.6,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z5",
+        "zone_name": "Dwarka",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.6,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.295Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.295Z"
+    },
+    {
+      "id": "bc14b367-649c-477a-af0e-cb0d575f31b9",
+      "zoneId": "z4",
+      "zoneName": "Powai",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.4,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z4",
+        "zone_name": "Powai",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.4,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.292Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.292Z"
+    },
+    {
+      "id": "f96093e5-875b-4e97-955b-71cc985f7a36",
+      "zoneId": "z3",
+      "zoneName": "Bandra",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 44.1,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z3",
+        "zone_name": "Bandra",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 44.1,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.290Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.290Z"
+    },
+    {
+      "id": "ba92c8c6-8b74-4c40-9c09-03307b138d04",
+      "zoneId": "z2",
+      "zoneName": "Kurla",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.8,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z2",
+        "zone_name": "Kurla",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.8,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.287Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.288Z"
+    },
+    {
+      "id": "748eb90d-0464-4635-af31-97ed7d17068b",
+      "zoneId": "z1",
+      "zoneName": "Andheri West",
+      "triggers": [
+        {
+          "type": "heat",
+          "value": 43.6,
+          "threshold": 42,
+          "label": "Extreme Heat",
+          "unit": "°C"
+        }
+      ],
+      "weather": {
+        "zone_id": "z1",
+        "zone_name": "Andheri West",
+        "rainfall_mm_hr": 1,
+        "temp_celsius": 43.6,
+        "aqi": 82,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:53:20.284Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:53:20.284Z"
+    },
+    {
+      "id": "4b4e7536-44d3-4e7a-bb05-d8993f03ccf9",
+      "zoneId": "z30",
+      "zoneName": "Malviya Nagar",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z30",
+        "zone_name": "Malviya Nagar",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.848Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.848Z"
+    },
+    {
+      "id": "286c61be-4201-49a4-a8b4-9717ce8ba57e",
+      "zoneId": "z29",
+      "zoneName": "Indira Nagar",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z29",
+        "zone_name": "Indira Nagar",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.846Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.846Z"
+    },
+    {
+      "id": "191b2937-bbe8-4b02-9827-6238bba632bf",
+      "zoneId": "z28",
+      "zoneName": "Gomti Nagar",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z28",
+        "zone_name": "Gomti Nagar",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.842Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.843Z"
+    },
+    {
+      "id": "ca9d2e7e-ccff-41c9-9694-286b0284d01c",
+      "zoneId": "z27",
+      "zoneName": "Navrangpura",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z27",
+        "zone_name": "Navrangpura",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.839Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.839Z"
+    },
+    {
+      "id": "650902b2-5a96-403f-8bdb-43a03d5f48f3",
+      "zoneId": "z26",
+      "zoneName": "Satellite",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z26",
+        "zone_name": "Satellite",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.837Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.837Z"
+    },
+    {
+      "id": "a1f5d4d1-05df-4c69-ab46-6f6a9f2e9248",
+      "zoneId": "z25",
+      "zoneName": "Park Street",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z25",
+        "zone_name": "Park Street",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.703Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.703Z"
+    },
+    {
+      "id": "bcdf1d64-ffe8-448a-a0a6-6738ba7139be",
+      "zoneId": "z24",
+      "zoneName": "New Town",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z24",
+        "zone_name": "New Town",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.701Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.701Z"
+    },
+    {
+      "id": "c730fea9-573e-425a-81b5-a26ff25797e3",
+      "zoneId": "z23",
+      "zoneName": "Salt Lake",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z23",
+        "zone_name": "Salt Lake",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.699Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.699Z"
+    },
+    {
+      "id": "1da8714a-c5a5-4357-8f50-58b09e508bfe",
+      "zoneId": "z22",
+      "zoneName": "Kothrud",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z22",
+        "zone_name": "Kothrud",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.696Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.696Z"
+    },
+    {
+      "id": "be9540ab-d093-45bf-ba4b-69193c37a204",
+      "zoneId": "z21",
+      "zoneName": "Viman Nagar",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z21",
+        "zone_name": "Viman Nagar",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.695Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.695Z"
+    },
+    {
+      "id": "22c2377e-6afe-4c0a-bc37-2894359dd19e",
+      "zoneId": "z20",
+      "zoneName": "Hinjewadi",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z20",
+        "zone_name": "Hinjewadi",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.692Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.692Z"
+    },
+    {
+      "id": "b048523d-7394-4b55-82d2-d738872bb386",
+      "zoneId": "z19",
+      "zoneName": "Banjara Hills",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z19",
+        "zone_name": "Banjara Hills",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.690Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.690Z"
+    },
+    {
+      "id": "3db24ea5-25f8-46c9-9f7b-68176c56d5ad",
+      "zoneId": "z18",
+      "zoneName": "Gachibowli",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z18",
+        "zone_name": "Gachibowli",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.688Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.688Z"
+    },
+    {
+      "id": "304ec254-50ad-419c-9b60-f76f587851ac",
+      "zoneId": "z17",
+      "zoneName": "Hitech City",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z17",
+        "zone_name": "Hitech City",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.685Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.685Z"
+    },
+    {
+      "id": "1dac015c-4bb3-4b1c-88f7-2c43455d8c74",
+      "zoneId": "z16",
+      "zoneName": "Adyar",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z16",
+        "zone_name": "Adyar",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.683Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.683Z"
+    },
+    {
+      "id": "64b4f45e-fb5f-4aa7-b1a0-11c96197d6f8",
+      "zoneId": "z15",
+      "zoneName": "Velachery",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z15",
+        "zone_name": "Velachery",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.681Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.681Z"
+    },
+    {
+      "id": "800e248a-dcd0-4e32-88a1-f44dae9bb720",
+      "zoneId": "z14",
+      "zoneName": "T Nagar",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z14",
+        "zone_name": "T Nagar",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.679Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.679Z"
+    },
+    {
+      "id": "c632e58b-7794-4d8b-a680-fc13bff03355",
+      "zoneId": "z13",
+      "zoneName": "Electronic City",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z13",
+        "zone_name": "Electronic City",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.677Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.677Z"
+    },
+    {
+      "id": "cb58209b-9ae1-48f0-b1e3-b450d3e32e64",
+      "zoneId": "z12",
+      "zoneName": "Indiranagar",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z12",
+        "zone_name": "Indiranagar",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.675Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.675Z"
+    },
+    {
+      "id": "b65232e8-2a8f-4db3-ad39-97c977784a03",
+      "zoneId": "z11",
+      "zoneName": "Whitefield",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z11",
+        "zone_name": "Whitefield",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.673Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.673Z"
+    },
+    {
+      "id": "af84c3de-739b-43db-b6f0-b8dad618943e",
+      "zoneId": "z10",
+      "zoneName": "Koramangala",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z10",
+        "zone_name": "Koramangala",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.670Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.670Z"
+    },
+    {
+      "id": "202ad88d-2e0d-4389-a4d9-d36a92a66838",
+      "zoneId": "z9",
+      "zoneName": "Sector 62",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z9",
+        "zone_name": "Sector 62",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.668Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.668Z"
+    },
+    {
+      "id": "81951bd7-93f4-436d-a33c-7718b0da367f",
+      "zoneId": "z8",
+      "zoneName": "Cyber City",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z8",
+        "zone_name": "Cyber City",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.666Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.666Z"
+    },
+    {
+      "id": "4daf89b2-a5cd-4354-b9cf-1db0736dfbc1",
+      "zoneId": "z7",
+      "zoneName": "Rohini",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z7",
+        "zone_name": "Rohini",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.664Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.664Z"
+    },
+    {
+      "id": "91414eac-b525-439d-a7b8-6f4e84fc43e9",
+      "zoneId": "z6",
+      "zoneName": "Lajpat Nagar",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z6",
+        "zone_name": "Lajpat Nagar",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.661Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.661Z"
+    },
+    {
+      "id": "226a321d-3e06-4381-9f30-fac4277c4a6c",
+      "zoneId": "z5",
+      "zoneName": "Dwarka",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z5",
+        "zone_name": "Dwarka",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.659Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.659Z"
+    },
+    {
+      "id": "7d5a1aea-27a5-4466-b06b-f4f6554005cb",
+      "zoneId": "z4",
+      "zoneName": "Powai",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z4",
+        "zone_name": "Powai",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.657Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.657Z"
+    },
+    {
+      "id": "a6578067-b5ef-4d27-a963-c7f5f71acaa5",
+      "zoneId": "z3",
+      "zoneName": "Bandra",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z3",
+        "zone_name": "Bandra",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.654Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.654Z"
+    },
+    {
+      "id": "1dcb2f0d-b983-442b-90f1-76818320c9d2",
+      "zoneId": "z2",
+      "zoneName": "Kurla",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z2",
+        "zone_name": "Kurla",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.652Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.652Z"
+    },
+    {
+      "id": "b98d8a6e-f5a5-4757-b68a-a9719b9accd1",
+      "zoneId": "z1",
+      "zoneName": "Andheri West",
+      "triggers": [
+        {
+          "type": "curfew",
+          "value": 1,
+          "threshold": 1,
+          "label": "Curfew/Strike",
+          "unit": ""
+        }
+      ],
+      "weather": {
+        "zone_id": "z1",
+        "zone_name": "Andheri West",
+        "rainfall_mm_hr": 1.1,
+        "temp_celsius": 31,
+        "aqi": 85,
+        "curfew_active": 1,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:42:59.650Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:42:59.650Z"
+    },
+    {
+      "id": "c1fcd605-3e06-42b0-85a9-451bae01cefa",
+      "zoneId": "z30",
+      "zoneName": "Malviya Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 23.1,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z30",
+        "zone_name": "Malviya Nagar",
+        "rainfall_mm_hr": 23.1,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.284Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.284Z"
+    },
+    {
+      "id": "f3348255-e058-412a-81e1-6ad93de93284",
+      "zoneId": "z29",
+      "zoneName": "Indira Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 33.5,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z29",
+        "zone_name": "Indira Nagar",
+        "rainfall_mm_hr": 33.5,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.281Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.281Z"
+    },
+    {
+      "id": "174fd5b5-6d50-4a21-91b0-0e72d65166ff",
+      "zoneId": "z28",
+      "zoneName": "Gomti Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 32,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z28",
+        "zone_name": "Gomti Nagar",
+        "rainfall_mm_hr": 32,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.279Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.279Z"
+    },
+    {
+      "id": "2e66f643-69c3-47b0-891f-2e6d49ed8c9e",
+      "zoneId": "z27",
+      "zoneName": "Navrangpura",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 30.4,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z27",
+        "zone_name": "Navrangpura",
+        "rainfall_mm_hr": 30.4,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.277Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.277Z"
+    },
+    {
+      "id": "ac003a89-85fc-43e3-8394-ced7ffac2682",
+      "zoneId": "z26",
+      "zoneName": "Satellite",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 28.9,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z26",
+        "zone_name": "Satellite",
+        "rainfall_mm_hr": 28.9,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.275Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.275Z"
+    },
+    {
+      "id": "c1e85dc5-aa99-4fcc-80af-5c040a9ed358",
+      "zoneId": "z25",
+      "zoneName": "Park Street",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 27.3,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z25",
+        "zone_name": "Park Street",
+        "rainfall_mm_hr": 27.3,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.142Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.142Z"
+    },
+    {
+      "id": "b37ab3e0-788a-4456-9d01-dcd5c6507d70",
+      "zoneId": "z24",
+      "zoneName": "New Town",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 25.7,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z24",
+        "zone_name": "New Town",
+        "rainfall_mm_hr": 25.7,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.141Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.141Z"
+    },
+    {
+      "id": "7a0d5e7e-8393-4047-b573-534ef5892d50",
+      "zoneId": "z23",
+      "zoneName": "Salt Lake",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 24.2,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z23",
+        "zone_name": "Salt Lake",
+        "rainfall_mm_hr": 24.2,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.138Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.138Z"
+    },
+    {
+      "id": "68d33c34-928e-4f97-8965-3b79204cf6a8",
+      "zoneId": "z22",
+      "zoneName": "Kothrud",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 22.6,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z22",
+        "zone_name": "Kothrud",
+        "rainfall_mm_hr": 22.6,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.136Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.136Z"
+    },
+    {
+      "id": "50748f9e-1a16-4230-9786-57b1b70e7ceb",
+      "zoneId": "z21",
+      "zoneName": "Viman Nagar",
+      "triggers": [
+        {
+          "type": "rain",
+          "value": 33.1,
+          "threshold": 15,
+          "label": "Heavy Rain",
+          "unit": "mm/hr"
+        }
+      ],
+      "weather": {
+        "zone_id": "z21",
+        "zone_name": "Viman Nagar",
+        "rainfall_mm_hr": 33.1,
+        "temp_celsius": 30.8,
+        "aqi": 83,
+        "curfew_active": 0,
+        "road_blocked_pct": 5,
+        "humidity_pct": 72,
+        "wind_kmh": 14,
+        "fetched_at": "2026-03-20T14:40:57.134Z",
+        "source": "simulation"
+      },
+      "detectedAt": "2026-03-20T14:40:57.134Z"
+    }
+  ],
+  "walletTransactions": [
+    {
+      "id": "321ced44-409d-40df-839a-25fcdebbf83f",
+      "workerId": "w1",
+      "type": "debit",
+      "amount": 300,
+      "description": "Withdrawn to ravi@oksbi",
+      "balanceAfter": 3718,
+      "createdAt": "2026-03-20T15:57:40.999Z",
+      "method": "upi_withdrawal",
+      "ref": "WDRMMZ31T6VQ4GE",
+      "upiId": "ravi@oksbi"
+    },
+    {
+      "id": "6edbfacc-0aca-49ef-a7c6-34eba39d9215",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 410,
+      "description": "Auto-payout: rain disruption",
+      "balanceAfter": 4018,
+      "createdAt": "2026-03-20T15:57:25.670Z",
+      "method": "claim_payout",
+      "claimId": "def8f9a0-54c2-4281-b273-5986559cb217",
+      "ref": "UPIQ2PIQMYC5A9"
+    },
+    {
+      "id": "b41cccf0-ca5b-4be8-931e-254c32b7f7a4",
+      "workerId": "w1",
+      "type": "debit",
+      "amount": 56,
+      "description": "Premium for Pro Shield",
+      "balanceAfter": 3608,
+      "createdAt": "2026-03-20T15:51:24.336Z",
+      "method": "wallet",
+      "planId": "pro",
+      "ref": "POLMMZ2TQJZ"
+    },
+    {
+      "id": "93a5860e-cb89-4311-99ef-6d8fdff542f9",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 100,
+      "description": "Added via UPI (ravi@oksbi)",
+      "balanceAfter": 3664,
+      "createdAt": "2026-03-20T14:55:48.653Z",
+      "method": "upi",
+      "ref": "PAYMMZ0U8Q45QLZ",
+      "cardLast4": null,
+      "upiId": "ravi@oksbi"
+    },
+    {
+      "id": "ccf74ca1-8bc9-454a-a744-9bf27b7fb1e4",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 198,
+      "description": "Auto-payout: heat disruption",
+      "balanceAfter": 2064,
+      "createdAt": "2026-03-20T14:53:30.317Z",
+      "method": "claim_payout",
+      "claimId": "99eea5b4-5641-4969-9f7c-f412fe9b942a",
+      "ref": "UPIET3XKFBEMJT"
+    },
+    {
+      "id": "cf3a4103-d8f5-493b-a1ba-4e6148c6e72c",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 100,
+      "description": "Added via Card ••••3456",
+      "balanceAfter": 1966,
+      "createdAt": "2026-03-20T14:52:11.074Z",
+      "method": "card",
+      "ref": "PAYMMZ0PKUACBUU",
+      "cardLast4": "3456",
+      "upiId": null
+    },
+    {
+      "id": "bebf5e6d-b651-4e1e-a695-6e631e9102c7",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 100,
+      "description": "Added via UPI (ravi@oksbi)",
+      "balanceAfter": 1966,
+      "createdAt": "2026-03-20T14:51:17.356Z",
+      "method": "upi",
+      "ref": "PAYMMZ0OFE4CV5F",
+      "cardLast4": null,
+      "upiId": "ravi@oksbi"
+    },
+    {
+      "id": "6d0c588c-190f-4f81-b0be-91fa56f67437",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 100,
+      "description": "Added via Card ••••3456",
+      "balanceAfter": 1966,
+      "createdAt": "2026-03-20T14:46:20.008Z",
+      "method": "card",
+      "ref": "PAYMMZ0I1YFKWID",
+      "cardLast4": "3456",
+      "upiId": null
+    },
+    {
+      "id": "19430514-0b5b-4139-af27-8bb21701391c",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 252,
+      "description": "Auto-payout: curfew disruption",
+      "balanceAfter": 1866,
+      "createdAt": "2026-03-20T14:43:07.688Z",
+      "method": "claim_payout",
+      "claimId": "df24b996-dc86-42b3-bceb-dcf4ec4d4701",
+      "ref": "UPIK80QI0SZTT"
+    },
+    {
+      "id": "292c91bf-9118-492c-a0aa-9e8286379a74",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 335,
+      "description": "Auto-payout: rain disruption",
+      "balanceAfter": 1614,
+      "createdAt": "2026-03-20T14:41:06.001Z",
+      "method": "claim_payout",
+      "claimId": "be5787a3-7c72-453a-b50b-e78aa88e17dd",
+      "ref": "UPIAADRIXINER"
+    },
+    {
+      "id": "8f074127-ade7-4273-b560-7c88bfad2f54",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 100,
+      "description": "Added via UPI (ravi@oksbi)",
+      "balanceAfter": 1379,
+      "createdAt": "2026-03-20T14:40:44.755Z",
+      "method": "upi",
+      "ref": "PAYMMZ0AV9V59BP",
+      "cardLast4": null,
+      "upiId": "ravi@oksbi"
+    },
+    {
+      "id": "7be78cde-c256-492e-994b-22d038bd16ba",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 1000,
+      "description": "Added via UPI (ravi@oksbi)",
+      "balanceAfter": 2279,
+      "createdAt": "2026-03-20T14:37:13.128Z",
+      "method": "upi",
+      "ref": "PAYMMZ06BZCXBPE",
+      "cardLast4": null,
+      "upiId": "ravi@oksbi"
+    },
+    {
+      "id": "40ad9eb9-ba16-4eec-98e7-87c718fd4c6b",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 100,
+      "description": "Added via UPI (ravi@oksbi)",
+      "balanceAfter": 1379,
+      "createdAt": "2026-03-20T14:36:42.062Z",
+      "method": "upi",
+      "ref": "PAYMMZ05O0E6YZM",
+      "cardLast4": null,
+      "upiId": "ravi@oksbi"
+    },
+    {
+      "id": "eb59108f-9a53-46e8-a202-41938dcf19b3",
+      "workerId": "w1",
+      "type": "debit",
+      "amount": 250,
+      "description": "Withdrawn to ravi@oksbi",
+      "balanceAfter": 1279,
+      "createdAt": "2026-03-20T14:31:58.897Z",
+      "method": "upi_withdrawal",
+      "ref": "WDRMMYZZLIOI13R",
+      "upiId": "ravi@oksbi"
+    },
+    {
+      "id": "5d15b3a3-3194-4925-863a-aaec30a54a01",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 388,
+      "description": "Auto-payout: aqi disruption",
+      "balanceAfter": 1529,
+      "createdAt": "2026-03-20T14:30:45.185Z",
+      "method": "claim_payout",
+      "claimId": "eb6d8c50-aa69-4e7e-9263-7c99793b0b86",
+      "ref": "UPIP34KBDOKMJB"
+    },
+    {
+      "id": "1a00bc18-fd38-44a4-ba1a-bdd56792b984",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 319,
+      "description": "Auto-payout: rain disruption",
+      "balanceAfter": 631,
+      "createdAt": "2026-03-20T14:22:08.021Z",
+      "method": "claim_payout",
+      "claimId": "4b2c6ca0-16d1-4a1d-b150-84701a93f2e1",
+      "ref": "UPISC3U1U0JVBH"
+    },
+    {
+      "id": "f5a1c967-7935-4367-905b-b78b1ef7e0e7",
+      "workerId": "w1",
+      "type": "credit",
+      "amount": 312,
+      "description": "Auto-payout: rain disruption",
+      "balanceAfter": 312,
+      "createdAt": "2026-03-20T14:20:34.681Z",
+      "method": "claim_payout",
+      "claimId": "5467ee6c-3c11-4b65-95ed-53df9c018a55",
+      "ref": "UPIU9PIAJQ829"
+    }
+  ]
+}

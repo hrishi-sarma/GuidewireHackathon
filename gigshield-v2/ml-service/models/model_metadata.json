@@ -1,0 +1,95 @@
+{
+  "trained_at": "2026-03-20T04:26:23.241309",
+  "models": {
+    "premium": {
+      "model": "premium",
+      "algorithm": "GradientBoostingRegressor",
+      "n_train": 4000,
+      "n_test": 1000,
+      "mae": 1.101,
+      "r2": 0.9965,
+      "pct_within_5_rupees": 100.0,
+      "numeric_features": [
+        "zone_risk_score",
+        "zone_flood_prone",
+        "base_premium",
+        "month",
+        "season_factor",
+        "avg_hours_per_week",
+        "hours_ratio",
+        "n_past_claims",
+        "n_fraud_claims",
+        "worker_age_weeks",
+        "city_mumbai",
+        "city_delhi",
+        "city_chennai",
+        "week_precip_mm",
+        "week_rain_mm_per_hr",
+        "week_temp_max_c",
+        "week_aqi",
+        "is_monsoon"
+      ],
+      "cat_features": [
+        "platform",
+        "plan_id"
+      ],
+      "target": "weekly_premium"
+    },
+    "fraud": {
+      "model": "fraud",
+      "algorithm": "RandomForestClassifier (balanced)",
+      "n_train": 3200,
+      "n_test": 800,
+      "roc_auc": 1.0,
+      "fraud_rate_train": 0.0841,
+      "optimal_threshold": 0.884,
+      "numeric_features": [
+        "gps_zone_match",
+        "was_active_on_platform",
+        "duplicate_claim_24h",
+        "disruption_hours",
+        "claimed_payout",
+        "expected_payout",
+        "payout_deviation_ratio",
+        "base_hourly_earning",
+        "zone_risk_score",
+        "platform_orders_before_trigger",
+        "worker_claim_history",
+        "hour_of_day",
+        "is_weekend",
+        "trigger_rain_mm_hr",
+        "trigger_aqi",
+        "trigger_temp_c",
+        "trigger_month",
+        "is_monsoon_trigger"
+      ],
+      "cat_features": [
+        "trigger_type"
+      ],
+      "target": "is_fraud"
+    },
+    "payout": {
+      "model": "payout",
+      "algorithm": "GradientBoostingRegressor",
+      "n_train": 2400,
+      "n_test": 600,
+      "mae": 7.573,
+      "r2": 0.9932,
+      "pct_within_10_rupees": 78.3,
+      "numeric_features": [
+        "base_hourly_earning",
+        "disruption_hours",
+        "max_weekly_payout",
+        "event_cap_60pct",
+        "is_heat_trigger",
+        "is_flat_rate"
+      ],
+      "cat_features": [
+        "trigger_type",
+        "plan_id"
+      ],
+      "target": "payout_amount"
+    }
+  },
+  "version": "1.0.0"
+}
